@@ -241,6 +241,10 @@ nav{position:sticky;top:0;z-index:100;background:rgba(10,15,30,0.95);backdrop-fi
         <div class="auto-row"><div class="auto-label">Approval</div><div class="auto-val">Does a human need to approve anything? (e.g. "Manager approves before contract is sent")</div></div>
         <div class="auto-row"><div class="auto-label">Exception</div><div class="auto-val">What happens if something goes wrong? (e.g. "If email fails, flag in Slack within 1 hour")</div></div>
       </div>
+      <div class="card" style="margin-top:1rem;border-color:rgba(0,212,170,0.3)">
+        <div class="card-tag">Quick summary</div>
+        <p style="font-size:0.9rem;color:var(--text);line-height:1.75">When specifying an automation, always define five things: what starts it (trigger), what must be true for it to run (condition), what happens automatically (action), whether a human needs to approve anything (approval), and what happens if something goes wrong (exception handling). The key mindset is to fix the process first before automating it — because automating a broken process just produces broken results faster. Most automation problems are actually process problems in disguise.</p>
+      </div>
       <div class="highlight" style="margin-top:1rem">Remember: most automation problems are process problems in disguise. Fix the process first, then automate it.</div>
     </div>
 
